@@ -1,0 +1,55 @@
+==== _dateTimeFormat_
+__________________________________________
+
+
+
+= Index
+
+=== Functions
+[%header, cols="1,3"]
+|===
+| Name | Description
+| link:#dateformat-index [dateFormat] | 
+| link:#datetimeformat-index [dateTimeFormat] | 
+| link:#timeformat-index [timeFormat] | 
+|===
+
+
+
+
+
+
+
+__________________________________________
+
+
+= Functions
+
+== **dateFormat** link:#index [↑↑]
+
+=== _dateFormat&#40;d: Date, format: String&#41;_
+
+
+__________________________________________
+
+
+== **dateTimeFormat** link:#index [↑↑]
+
+=== _dateTimeFormat&#40;dt: DateTime, format: String, region: String &#124; Null&#41;_
+
+
+__________________________________________
+
+
+== **timeFormat** link:#index [↑↑]
+
+=== _timeFormat&#40;t: Time, format: String&#41;_
+
+
+__________________________________________
+
+
+
+
+
+
