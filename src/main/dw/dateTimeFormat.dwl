@@ -1,15 +1,15 @@
 %dw 2.0
 
 fun dateFormat(d: Date, format: String) = 
-(d as Date {"format": format})
+(d as String {"format": format})
 
 
 fun timeFormat(t: Time, format: String) = 
-(t as Time {"format": format})
+(t as String {"format": format})
 
 
 fun dateTimeFormat(dt: DateTime, format: String, region: String | Null) = 
 if(region == null or isEmpty(region))
-    (dt as DateTime {"format": format})
+    (dt as String {"format": format})
 else 
-    (dt as DateTime {"format": format}) >> region
+    (dt >> region) as String {"format": format}
