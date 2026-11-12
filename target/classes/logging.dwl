@@ -19,7 +19,7 @@ fun log(appName: String | Null, flowName: String | Null, processStage: String | 
 }
 
 
-fun errorLog(appName: String | Null, flowName: String | Null, processStage: String | Null, transactionId: String | Null, uniqueId: Object, transactionType: String | Null, errorCode: String | Null, errorType: String | Null, errorDescription: String | Null) = 
+fun errorLog(appName: String | Null, flowName: String | Null, processStage: String | Null, transactionId: String | Null, uniqueId: Object, transactionType: String | Null, errorCode: String | Number | Null, errorType: String | Null, errorDescription: String | Null) = 
 {
     "appName": appName,
     "appLayer": if((upper(appName) contains "EXP") or (upper(appName) contains "EAPI") or (upper(appName) contains "LISTENER")) "EXPERIENCE"

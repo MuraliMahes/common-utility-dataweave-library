@@ -10,7 +10,7 @@
     <!-- NOTE: Remember to add your Anypoint Platform credentials in ~/.m2/settings.xml file -->
     <groupId>4e0b004f-d757-4dd0-8464-433bbcd70fbb</groupId>
     <artifactId>logging-framework-library</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>2.0.0</version>
     <packaging>dw-library</packaging>
     <name>logging-framework-library</name>
 
